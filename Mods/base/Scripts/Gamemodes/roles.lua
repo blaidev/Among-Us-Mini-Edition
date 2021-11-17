@@ -66,7 +66,7 @@ function InitializeGamemode()
 	})
 	
 		CE_AddRole({
-		internal_name = "Engineer",
+		internal_name = "engineer",
 		name = "Engineer",
 		role_text = "You can vent but not report.",
 		task_text = "Find the impostor and call a meeting.",
