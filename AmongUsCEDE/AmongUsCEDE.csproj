@@ -9,325 +9,325 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\Dependencies\0Harmony.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\Dependencies\Assembly-CSharp.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="AssemblyUnhollower">
-      <HintPath>..\Dependencies\AssemblyUnhollower.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\AssemblyUnhollower.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.Core">
-      <HintPath>..\Dependencies\BepInEx.Core.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\BepInEx.Core.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.IL2CPP">
-      <HintPath>..\Dependencies\BepInEx.IL2CPP.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\BepInEx.IL2CPP.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.Preloader.Core">
-      <HintPath>..\Dependencies\BepInEx.Preloader.Core.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\BepInEx.Preloader.Core.dll</HintPath>
     </Reference>
     <Reference Include="Hazel">
-      <HintPath>..\Dependencies\Hazel.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Hazel.dll</HintPath>
     </Reference>
     <Reference Include="Iced">
-      <HintPath>..\Dependencies\Iced.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Iced.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cpp.TlsAdapter">
-      <HintPath>..\Dependencies\Il2Cpp.TlsAdapter.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2Cpp.TlsAdapter.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppDumper">
-      <HintPath>..\Dependencies\Il2CppDumper.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppDumper.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppMono.Security">
-      <HintPath>..\Dependencies\Il2CppMono.Security.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppMono.Security.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <HintPath>..\Dependencies\Il2Cppmscorlib.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2Cppmscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem">
-      <HintPath>..\Dependencies\Il2CppSystem.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppSystem.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem.Configuration">
-      <HintPath>..\Dependencies\Il2CppSystem.Configuration.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppSystem.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem.Core">
-      <HintPath>..\Dependencies\Il2CppSystem.Core.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppSystem.Core.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem.Data">
-      <HintPath>..\Dependencies\Il2CppSystem.Data.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppSystem.Data.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem.Net.Http">
-      <HintPath>..\Dependencies\Il2CppSystem.Net.Http.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppSystem.Net.Http.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem.Numerics">
-      <HintPath>..\Dependencies\Il2CppSystem.Numerics.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppSystem.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem.Runtime.Serialization">
-      <HintPath>..\Dependencies\Il2CppSystem.Runtime.Serialization.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppSystem.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem.Xml">
-      <HintPath>..\Dependencies\Il2CppSystem.Xml.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppSystem.Xml.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem.Xml.Linq">
-      <HintPath>..\Dependencies\Il2CppSystem.Xml.Linq.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Il2CppSystem.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>..\Dependencies\Mono.Cecil.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Mdb">
-      <HintPath>..\Dependencies\Mono.Cecil.Mdb.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Pdb">
-      <HintPath>..\Dependencies\Mono.Cecil.Pdb.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Rocks">
-      <HintPath>..\Dependencies\Mono.Cecil.Rocks.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="MonoMod.RuntimeDetour">
-      <HintPath>..\Dependencies\MonoMod.RuntimeDetour.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\MonoMod.RuntimeDetour.dll</HintPath>
     </Reference>
     <Reference Include="MonoMod.Utils">
-      <HintPath>..\Dependencies\MonoMod.Utils.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="MoonSharp.Interpreter">
-      <HintPath>..\Dependencies\MoonSharp.Interpreter.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\MoonSharp.Interpreter.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\Dependencies\Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="QRCoder">
-      <HintPath>..\Dependencies\QRCoder.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\QRCoder.dll</HintPath>
     </Reference>
     <Reference Include="Rewired_Core">
-      <HintPath>..\Dependencies\Rewired_Core.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Rewired_Core.dll</HintPath>
     </Reference>
     <Reference Include="Rewired_Windows">
-      <HintPath>..\Dependencies\Rewired_Windows.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Rewired_Windows.dll</HintPath>
     </Reference>
     <Reference Include="SemVer">
-      <HintPath>..\Dependencies\SemVer.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\SemVer.dll</HintPath>
     </Reference>
     <Reference Include="UnhollowerBaseLib">
-      <HintPath>..\Dependencies\UnhollowerBaseLib.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnhollowerBaseLib.dll</HintPath>
     </Reference>
     <Reference Include="UnhollowerRuntimeLib">
-      <HintPath>..\Dependencies\UnhollowerRuntimeLib.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnhollowerRuntimeLib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables">
-      <HintPath>..\Dependencies\Unity.Addressables.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>..\Dependencies\Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
-      <HintPath>..\Dependencies\Unity.ResourceManager.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Unity.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>..\Dependencies\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\Dependencies\UnityEngine.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>..\Dependencies\UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-      <HintPath>..\Dependencies\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>..\Dependencies\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>..\Dependencies\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ARModule">
-      <HintPath>..\Dependencies\UnityEngine.ARModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>..\Dependencies\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>..\Dependencies\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-      <HintPath>..\Dependencies\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>..\Dependencies\UnityEngine.ClusterInputModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.ClusterInputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>..\Dependencies\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\Dependencies\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>..\Dependencies\UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>..\Dependencies\UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>..\Dependencies\UnityEngine.DSPGraphModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.DSPGraphModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>..\Dependencies\UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GIModule">
-      <HintPath>..\Dependencies\UnityEngine.GIModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.GIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GridModule">
-      <HintPath>..\Dependencies\UnityEngine.GridModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>..\Dependencies\UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>..\Dependencies\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>..\Dependencies\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>..\Dependencies\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>..\Dependencies\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>..\Dependencies\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>..\Dependencies\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>..\Dependencies\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>..\Dependencies\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>..\Dependencies\UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>..\Dependencies\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>..\Dependencies\UnityEngine.ProfilerModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>..\Dependencies\UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityCore">
-      <HintPath>..\Dependencies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-      <HintPath>..\Dependencies\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>..\Dependencies\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>..\Dependencies\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>..\Dependencies\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>..\Dependencies\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>..\Dependencies\UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>..\Dependencies\UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>..\Dependencies\UnityEngine.SubsystemsModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.SubsystemsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>..\Dependencies\UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>..\Dependencies\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreModule">
-      <HintPath>..\Dependencies\UnityEngine.TextCoreModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.TextCoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>..\Dependencies\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>..\Dependencies\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>..\Dependencies\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\Dependencies\UnityEngine.UI.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>..\Dependencies\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsNativeModule">
-      <HintPath>..\Dependencies\UnityEngine.UIElementsNativeModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UIElementsNativeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>..\Dependencies\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>..\Dependencies\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
-      <HintPath>..\Dependencies\UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>..\Dependencies\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>..\Dependencies\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityCurlModule">
-      <HintPath>..\Dependencies\UnityEngine.UnityCurlModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UnityCurlModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>..\Dependencies\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>..\Dependencies\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>..\Dependencies\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>..\Dependencies\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>..\Dependencies\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>..\Dependencies\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>..\Dependencies\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>..\Dependencies\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>..\Dependencies\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>..\Dependencies\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>..\Dependencies\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>..\Dependencies\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>..\Dependencies\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Among Us\BepInEx\mega\UnityEngine.XRModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 
