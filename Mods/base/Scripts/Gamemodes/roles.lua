@@ -156,6 +156,8 @@ function InitializeGamemode()
 	--jesters
 	CE_AddIntSetting("jester_count","Jester Count","", 0, 1, 0, 1)
 	CE_AddToggleSetting("imps_see_jester","Impostors See Jester", true, {"Yes","No"})
+	--engineers!
+	CE_AddIntSetting("engineer_count","Engineer Count","", 0, 1, 0, 1)
 	--griefers
 	CE_AddIntSetting("griefer_count","Griefer Count","", 0, 1, 0, 2)
 	--hawks
@@ -252,6 +254,7 @@ function SelectRoles(players)
 	local griefer_count = CE_GetNumberSetting("griefer_count")
 	local hawk_count = CE_GetNumberSetting("hawk_count")
 	local shielded_count = CE_GetNumberSetting("shielded_count")
+	local engineer_count = CE_GetNumberSetting("engineer_count")
 	
 	for i=1, jest_count do
 		table.insert(RolesToGive,"jester")
@@ -263,6 +266,10 @@ function SelectRoles(players)
 	
 	for i=1, griefer_count do
 		table.insert(RolesToGive,"griefer")
+	end
+	
+	for i=1, engineer_count do
+		table.insert(RolesToGive,"engineer")
 	end
 	
 	for i=1, hawk_count do
