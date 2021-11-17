@@ -65,6 +65,21 @@ function InitializeGamemode()
 		name_color = {r=255,g=25,b=25}
 	})
 	
+		CE_AddRole({
+		internal_name = "Engineer",
+		name = "Engineer",
+		role_text = "You can vent but not report.",
+		task_text = "Find the impostor and call a meeting.",
+		specials = {RS_Primary,RS_Vent},
+		has_tasks = false,
+		role_vis = RV_SameLayer,
+		layer = 1,
+		team = 1,
+		primary_valid_targets = VPT_Others,
+		immune_to_light_affectors = true,
+		color = {r=27, g=15, b=46}
+	})
+	
 	CE_AddRole({
 		internal_name = "griefer",
 		name = "Griefer",
