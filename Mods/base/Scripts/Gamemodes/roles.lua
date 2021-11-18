@@ -65,19 +65,34 @@ function InitializeGamemode()
 		name_color = {r=255,g=25,b=25}
 	})
 	
-		CE_AddRole({
+	CE_AddRole({
 		internal_name = "engineer",
 		name = "Engineer",
 		role_text = "You can vent but not report.",
-		task_text = "Find the impostor and call a meeting.",
+		task_text = "",
 		specials = {RS_Primary,RS_Vent},
-		has_tasks = false,
+		has_tasks = true,
 		role_vis = RV_SameLayer,
 		layer = 1,
 		team = 1,
 		primary_valid_targets = VPT_Others,
 		immune_to_light_affectors = true,
 		color = {r=27, g=15, b=46}
+	})
+	
+		CE_AddRole({
+		internal_name = "science",
+		name = "Scientest",
+		role_text = "You can use vitals and vent.",
+		task_text = "",
+		specials = {RS_Primary,RS_Vent,RS_Vitals},
+		has_tasks = true,
+		role_vis = RV_SameLayer,
+		layer = 1,
+		team = 1,
+		primary_valid_targets = VPT_Others,
+		immune_to_light_affectors = true,
+		color = {r=14, g=43, b=71}
 	})
 	
 	CE_AddRole({
@@ -150,23 +165,16 @@ function InitializeGamemode()
 	CE_AddStringSetting("vent_setting","Who Can Vent", 1, {"Impostors Only","Everybody","Nobody"})
 	CE_AddToggleSetting("end_on_zero_only","Game Only ends on 0 Crew", false, {"True","False"})
 	CE_AddToggleSetting("vent_visibility","Visibility In Vents", true, {"Yes","No"})
-	--sheriffs
-	CE_AddIntSetting("sheriff_count","Sheriff Count","", 0, 1, 0, 2)
-	CE_AddToggleSetting("ce_sheriff_behavior","CE Sheriff Behavior", true, {"Enabled","Disabled"})
 	--jesters
 	CE_AddIntSetting("jester_count","Jester Count","", 0, 1, 0, 1)
 	CE_AddToggleSetting("imps_see_jester","Impostors See Jester", true, {"Yes","No"})
-	--engineers!
+	--engineers
 	CE_AddIntSetting("engineer_count","Engineer Count","", 0, 1, 0, 1)
 	--griefers
 	CE_AddIntSetting("griefer_count","Griefer Count","", 0, 1, 0, 2)
 	--hawks
 	CE_AddIntSetting("hawk_count","Hawk-Eyed Count","", 0, 1, 0, 4)
 	CE_AddFloatSetting("hawk_vision","Hawk-Eyed Vision","", 2, 0.25, 0.25, 5)
-	--shielded
-	CE_AddIntSetting("shielded_count","Shielded Count","", 0, 1, 0, 4)
-	CE_AddToggleSetting("shielded_kill","Shields Kill Attackers", false, {"Yes","No"})
-	CE_AddToggleSetting("shielded_know","Shieldeds know when shield breaks", false, {"Yes","No"})
 	
 	return {"Roles","roles"} --Display Name then Internal Name
 end
@@ -255,13 +263,10 @@ function SelectRoles(players)
 	local hawk_count = CE_GetNumberSetting("hawk_count")
 	local shielded_count = CE_GetNumberSetting("shielded_count")
 	local engineer_count = CE_GetNumberSetting("engineer_count")
+	//local science_count = CE_GetNumberSetting("science_count")
 	
 	for i=1, jest_count do
 		table.insert(RolesToGive,"jester")
-	end
-	
-	for i=1, sheriff_count do
-		table.insert(RolesToGive,"sheriff")
 	end
 	
 	for i=1, griefer_count do
@@ -274,10 +279,6 @@ function SelectRoles(players)
 	
 	for i=1, hawk_count do
 		table.insert(RolesToGive,"hawk")
-	end
-	
-	for i=1, shielded_count do
-		table.insert(RolesToGive,"shielded")
 	end
 	
 	
