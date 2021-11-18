@@ -67,7 +67,7 @@ function InitializeGamemode()
 	
 	CE_AddStringSetting("vent_setting","Who Can Vent", 1, {"Impostors Only","Everybody","Nobody"})
 	CE_AddToggleSetting("end_on_zero_only","Game Only ends on 0 Crew", false, {"True","False"})
-	CE_AddToggleSetting("end_on_one_only","Game Only ends on 0 Crew", false, {"True","False"})
+	CE_AddToggleSetting("end_on_one_only","Game Only ends on 1 Crew", false, {"True","False"})
 	CE_AddToggleSetting("vent_visibility","Visibility In Vents", true, {"Yes","No"})
 	
 	return {"Base","base"} --Display Name then Internal Name
@@ -100,7 +100,7 @@ end
 
 
 
-function SelectRoles(players) --WHAT. THE FUCK. IS GOING ON.
+function SelectRoles(players) --WHAT. THE HAYSTACK. IS GOING ON.
 	
 	local RolesToGive = {}
 	for i=1, CE_GetInternalNumberSetting("impostor_count") do
@@ -109,6 +109,10 @@ function SelectRoles(players) --WHAT. THE FUCK. IS GOING ON.
 	print("got past imp")
 	for i=1, #players - #RolesToGive do
 		table.insert(RolesToGive,"crewmate")
+	end
+	print("witch will use impostor count soon or a custom witch count setting.")
+	for i=1, #players - #RolesToGive do
+		table.insert(RolesToGive,"witch")
 	end
 	local Selected = {}
 	local SelectedRoles = {}
@@ -172,8 +176,8 @@ function CheckEndCriteria(tasks_complete, sab_loss)
 		CE_WinGame(CE_GetAllPlayersOnTeam(0,false),"default_crewmate")
 	end
 			
-	if (#impostors == 4) then
-		CE_WinGame(CE_GetAllPlayersOnTeam(0,false),"default_crewmate")
+	if (#impostors == 6) then
+		CE_WinGame(CE_GetAllPlayersOnTeam(0,false),"default_error")
 	end
 	
 	if (tasks_complete) then
