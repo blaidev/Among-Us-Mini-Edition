@@ -15,7 +15,7 @@ function InitializeGamemode()
 	CE_AddRole({
 		internal_name = "impostor",
 		name = "Impostor",
-		role_text = "",
+		role_text = "Kill the crewmates.",
 		task_text = "Sabotage and kill everyone.",
 		specials = {RS_Primary,RS_Sabotage,RS_Vent,RS_Report},
 		has_tasks = false,
@@ -31,9 +31,9 @@ function InitializeGamemode()
 	CE_AddRole({
 		internal_name = "witch",
 		name = "Witch",
-		role_text = "",
-		task_text = "You dont have a purpose yet gamers",
-		specials = {RS_Primary,RS_Vent,RS_Report},
+		role_text = "There are crewmates to posion.",
+		task_text = "Your useless",
+		specials = {RS_Primary,RS_Vent},
 		has_tasks = false,
 		role_vis = RV_SameLayer,
 		layer = 1,
