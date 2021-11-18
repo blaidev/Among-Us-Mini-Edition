@@ -38,7 +38,7 @@ namespace AmongUsCEDE.Mods
 		public Mod()
 		{
 			ModName = "Null";
-			ModDesc = "No description so here is on for it. POP QUIZ TOMORROW!";
+			ModDesc = "They forgot a description so here is one for ya. POP QUIZ TOMORROW!";
 		}
 
 		public Mod(string title, string desc)
