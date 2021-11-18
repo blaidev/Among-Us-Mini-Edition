@@ -11,7 +11,8 @@ public enum RoleSpecials
 	Primary,
 	Sabotage,
 	Vent,
-	Report
+	Report,
+	Vitals
 }
 
 
