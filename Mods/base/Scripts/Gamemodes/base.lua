@@ -28,6 +28,22 @@ function InitializeGamemode()
 		name_color = {r=255,g=25,b=25}
 	})
 	
+	CE_AddRole({
+		internal_name = "witch",
+		name = "Witch",
+		role_text = "",
+		task_text = "You dont have a purpose yet gamers",
+		specials = {RS_Primary,RS_Vent,RS_Report},
+		has_tasks = false,
+		role_vis = RV_SameLayer,
+		layer = 1,
+		team = 1,
+		primary_valid_targets = VPT_Others,
+		immune_to_light_affectors = true,
+		color = {r=1,g=100,b=0},
+		name_color = {r=1,g=100,b=1}
+	})
+	
 	
 	CE_AddHook("CanVent", function(player, usual)
 		local vent_set = CE_GetNumberSetting("vent_setting")
@@ -51,6 +67,7 @@ function InitializeGamemode()
 	
 	CE_AddStringSetting("vent_setting","Who Can Vent", 1, {"Impostors Only","Everybody","Nobody"})
 	CE_AddToggleSetting("end_on_zero_only","Game Only ends on 0 Crew", false, {"True","False"})
+	CE_AddToggleSetting("end_on_one_only","Game Only ends on 0 Crew", false, {"True","False"})
 	CE_AddToggleSetting("vent_visibility","Visibility In Vents", true, {"Yes","No"})
 	
 	return {"Base","base"} --Display Name then Internal Name
@@ -135,13 +152,27 @@ function CheckEndCriteria(tasks_complete, sab_loss)
 		if (#impostors >= #crewmates) then
 			CE_WinGame(CE_GetAllPlayersOnTeam(1,false),"default_impostor")
 		end
+		
+		if (not CE_GetBoolSetting("end_on_one_only")) then
+		if (#impostors >= #crewmates) then
+			CE_WinGame(CE_GetAllPlayersOnTeam(1,false),"default_impostor")
+		end
 	else
 		if (#crewmates == 0 and #impostors ~= 0) then
+			CE_WinGame(CE_GetAllPlayersOnTeam(1,false),"default_impostor")
+		end
+		
+	else if
+		if (#crewmates == 1 and #impostors ~= 1) then
 			CE_WinGame(CE_GetAllPlayersOnTeam(1,false),"default_impostor")
 		end
 	end
 	
 	if (#impostors == 0) then
+		CE_WinGame(CE_GetAllPlayersOnTeam(0,false),"default_crewmate")
+	end
+			
+	if (#impostors == 4) then
 		CE_WinGame(CE_GetAllPlayersOnTeam(0,false),"default_crewmate")
 	end
 	
