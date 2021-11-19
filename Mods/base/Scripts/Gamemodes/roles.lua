@@ -80,7 +80,7 @@ function InitializeGamemode()
 		color = {r=27, g=15, b=46}
 	})
 	
-		CE_AddRole({
+	CE_AddRole({
 		internal_name = "science",
 		name = "Scientest",
 		role_text = "You can use vitals and vent.",
@@ -153,6 +153,11 @@ function InitializeGamemode()
 			imp_sub = 1
 		end
 		return (#CE_GetAllPlayersOnTeam(1,true) - imp_sub) .. " impostors remain."
+		local imp_sub = 0
+		if (ejected.Role == "engineer") then
+			imp_sub = 0
+		end
+		return (#CE_GetAllPlayersOnTeam(1,true) - imp_sub) .. " impostors remain also sorri engineer for being ejected lol"
 	end)
 	
 	CE_AddHook("OnPlayerDeath", function(victim,reason)
