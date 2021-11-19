@@ -12,7 +12,9 @@ Customizable roles hats and colors. (i think)
 New roles:
 Engineer (can vent but not report)
 Jester
-And a bit more
+Scientest
+Witch
+Assasin and more!
 New colors:
 Reddit and impostor
 New hats:
